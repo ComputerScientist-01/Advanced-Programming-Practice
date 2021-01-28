@@ -1,44 +1,12 @@
-<h2 align="center">My-README.md-Template</h2>
+<h2 align="center">Advanced Programming Practice</h2>
 
-# Title - [DEMO](link)
+All of my labwork done as part of Advanced Programming Practice lab.
 
-Title and description.
 
----
+## :bulb: Languages used
 
-## :fire: Features
+- Python
 
-- point 1
-- point 2
-- point 3
-- point 4
-
----
-
-## :bulb: Built Using
-
-- [**FLUTTER**](https://flutter.dev/)
-- [**VELOCITY X**](https://velocityx.dev/)
-- [**ALAN AI**](https://alan.app/)
-
----
-
-## :iphone: Screenshots
-
-|                                      |                                      |
-| ------------------------------------ | ------------------------------------ |
-| <img src=""  width="300"/> | <img src="images/"  width="300"/> |
-| <img src="images/" width="300"/>  | <img src="images/" width="300"/>  |
-| <img src="images/" width="300"/>  |  <img src="images/" width="300"/>  |
-| <img src="images/" width="300"/>  |  <img src="images/" width="300"/>  |
-| <img src="images/" width="300"/>  |  <img src="images/" width="300"/>  |
-
----
-
-## :heart: Found this project interesting?
-
-If you found this project useful, then please consider giving it a :star: on Github and sharing it with your friends via social media.
----
 <!-- CONTACT --> 
 ## :man: Project Created & Maintained By
 
