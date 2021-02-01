@@ -1,0 +1,21 @@
+1. Write a python program using structured programming paradigms for displaying
+first name, last name, email, user id, password and confirm password of the user for school
+applications. All the inputs are to read from user at run time and proper conversion also to be
+included in the code. After validating the user name and password display the authorized
+user details in console window.
+
+2. Create a multiplication table asking the user the number of rows and columns he wants.
+Write a python program to implement the above table.
+
+3. Write a python program where the program takes a random integer between 1 to 10, the
+user is then prompted to input a guess number. If the user input matches with guess number,
+the program will display a message Good Work otherwise display a message “Notmatched”
+
+4. Write a python program using structured paradigms concepts to compute the sum of the
+two given integers. If the two values are same, then returns triple their sum.
+
+5. Write a python program to check the total marks of a student in various examinations. The
+student will get A+ grade if the total marks are in the range 89..100 inclusive, if the
+examination is &quot;Final-exam.&quot; the student will get A+ grade and total marks must be greater
+than or equal to 90. Return true if the student get A+ grade or false otherwise
+
