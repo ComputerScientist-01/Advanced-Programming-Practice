@@ -1,0 +1,9 @@
+Q1. Write a Python function to check whether a number is in a given range.
+
+Q2. Write a Python function that prints out the first n rows of Pascal's triangle.
+
+Q3.Write a Python program to compute the sum of all the elements of each tuple stored inside a list of tuples. 
+
+Q4. Write a Python program to create and display all combinations of letters, selecting each letter from a different key in a dictionary.
+
+Q5. Write 2 lambda functions in python to calculate the volume and area of a sphere using the formulas.
