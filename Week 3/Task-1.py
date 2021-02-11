@@ -13,7 +13,9 @@ class Employee:
     def ComputeSalary(self): 
         hra = 0.2 * self.basic 
         da = 0.5 * self.basic 
-        pf = 0.11 * self.basic 
+        pf = 0.11 * self.basic
+        ta = 0.075 * self.basic 
+        
         # Condition to compute the 
         # allowance for the person
         if self.grade == 'A': 
@@ -22,7 +24,7 @@ class Employee:
             allowance = 1500.0
         else: 
             allowance = 1300.0; 
-        gross = round(self.basic + hra + da + allowance - pf) 
+        gross = round(self.basic+ ta + hra + da + allowance - pf) 
         print(gross)
 
 
