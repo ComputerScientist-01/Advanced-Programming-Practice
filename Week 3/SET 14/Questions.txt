@@ -1,0 +1,16 @@
+1. Write a Python class to find a pair of elements (indices of the two numbers) from a given
+array whose sum equals a specific target number. 
+
+2.  Write a Python class which has two methods get_String and print_String. get_String
+accept a string from the user and print_String print the string in upper case. 
+ 
+3. Write a Python class named Rectangle constructed by a length and width and a method
+which will compute the area of a rectangle.  
+
+4. Write a Python class to find validity of a string of parentheses, &#39;(&#39;, &#39;)&#39;, &#39;{&#39;, &#39;}&#39;, &#39;[&#39; and &#39;]. These
+brackets must be close in the correct order, for example "()" and "()[]{}" are valid but "[)"
+"({[)]" and "{{{" are invalid.  
+
+5. Write a Python class to get all possible unique subsets from a set of distinct integers. 
+Input : [4, 5, 6]
+Output : [[], [6], [5], [5, 6], [4], [4, 6], [4, 5], [4, 5, 6]]
