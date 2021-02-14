@@ -1,0 +1,50 @@
+Q1.Employee payroll system
+Employee name.
+Employee ID
+Basic pay
+HRA
+TA
+DA
+Grade pay
+Deduction 5% from Basic pay
+Find the Gross pay, Net pay (Grade pay + deductions) and print all the details given
+above, using class and object of get () method and cal( )method.
+
+Q2.Student management system
+Student name
+Student id as inputs with marks for 5 Subjects, calculate and round of the subject
+marks to 10 and then find CGPA, Grade using object and class concept of oops 
+Solve the above by creating a base class and derived class use inheritance to solve it.
+
+Q3. Instantiate the X class using self and then using self in the get () method and to
+achieve composition you can instantiate other objects in the class and then use those
+instances that Generate output of the total code which has both inheritance and composition.
+
+Q4.An Internet service provider has three different subscription packages for its
+customers: Package A: for $9.95/month, 10 hours of access are provided. Additional hours
+are $2.00/hour. Package B: for $14.95/month, 20 hours of access are provided. Additional
+hours are $1.00/hour. Package C: for $19.95/month, unlimited access is provided.
+Write a program using objects and classes that calculates a customer’s monthly bill. 
+It should ask which package the customer has purchased and how many hours were
+used. It
+should then display the total amount due.
+Input validation: be sure the user only selects package A, B, or C.  Also, the number
+of
+hours used in a month cannot exceed 744.
+
+Q5.Write a program using object-oriented concepts that calculates and displays a person’s
+body mass index (BMI).  The 
+BMI is often used to determine whether a person with sedentary lifestyle is
+overweight or underweight for his or her height.  A person’s BMI is calculated with
+the following formula:
+BMI = weight * 703/height^2
+where weight is measured in pounds and height is measured in inches.  The program
+should display a message indicating whether the person has optimal weight, is
+underweight, or is overweight.  A sedentary person’s weight is considered to be
+optimal if his or her BMI is between 18.5 and 25.  If the BMI is less than 18.5, the
+person is considered to be underweight.  If the BMI value is greater than 25, the
+person is considered to be overweight.
+
+
+
+
