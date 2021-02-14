@@ -2,22 +2,22 @@
 
 All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
 
-| Week Number | Programming Paradigm |
-|:------------:|:--------------------|
-| `1` | Structured |  
-| `2` | Procedural |  
-| `3` | Object Oriented |
-| `4` | Declarative |
-| `5` | Imperative |
-| `6` | Event Driven & GUI |
-| `7` | Functional |
-| `8` | Parallel |
-| `9` | Concurrent|
-| `10`| Dependent Type|
-| `11`| Logic|
-| `12`| Network|
-| `13`| Automata Based|
-| `14`| Symbolic|
+| Week Number | Programming Paradigm |Set Number|
+|:------------:|:--------------------:|:--:|
+| `1` | Structured |11|  
+| `2` | Procedural |15| 
+| `3` | Object Oriented |5,14|
+| `4` | Declarative ||
+| `5` | Imperative ||
+| `6` | Event Driven & GUI | |
+| `7` | Functional | |
+| `8` | Parallel | |
+| `9` | Concurrent| |
+| `10`| Dependent Type| |
+| `11`| Logic| |
+| `12`| Network| |
+| `13`| Automata Based| |
+| `14`| Symbolic| |
 
 
 ## :bulb: Languages used
