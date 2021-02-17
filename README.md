@@ -4,7 +4,7 @@ All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
 
 | Week Number | Programming Paradigm |Set Number|
 |:------------:|:--------------------:|:--:|
-| `1` | Structured |11|  
+| `1` | Structured |11,14|  
 | `2` | Procedural |15| 
 | `3` | Object Oriented |5,14,9|
 | `4` | Declarative ||
