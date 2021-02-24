@@ -7,7 +7,7 @@ All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
 | `1` | Structured |11|  
 | `2` | Procedural |15| 
 | `3` | Object Oriented |5,14,9|
-| `4` | Declarative |3|
+| `4` | Declarative ||
 | `5` | Imperative ||
 | `6` | Event Driven & GUI | |
 | `7` | Functional | |
