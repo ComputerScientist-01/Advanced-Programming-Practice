@@ -7,7 +7,7 @@ All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
 | `1` | Structured |11,14|  
 | `2` | Procedural |11,14,15| 
 | `3` | Object Oriented |5,9,14|
-| `4` |  Event Driven & GUI |3|
+| `4` |  Event Driven & GUI |3,5|
 | `5` | Imperative ||
 | `6` | Declarative| |
 | `7` | Functional | |
@@ -23,6 +23,16 @@ All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
 ## :bulb: Languages used
 
 - Python
+
+<br>
+
+<p align="center"><img src="https://img.shields.io/badge/Contributors-black?logo=github&style=for-the-badge" />
+<p>
+  <a href="https://github.com/ComputerScientist-01/Advanced-Programming-Practice/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=ComputerScientist-01/Advanced-Programming-Practice" />
+  </a>
+</p>
+
 
 <!-- CONTACT --> 
 ## :man: Project Created & Maintained By
