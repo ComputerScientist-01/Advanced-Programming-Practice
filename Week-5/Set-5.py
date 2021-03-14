@@ -3,12 +3,10 @@ import sqlite3
 root=Tk()
 root.title("CAR RENTAL RECEIPT")
 root.geometry('700x800')
-
 #Databases
 conn=sqlite3.connect('address_book.db');
 c=conn.cursor()
 
-#Create Table
 c.execute("""CREATE TABLE addresses (
 VIN integer,
 Make text,
@@ -18,33 +16,32 @@ Registration integer,
 Model text,
 Mileage integer
 )""")
-
 #Create submit function for db
 def submit():
-conn=sqlite3.connect('address_book.db');
-c=conn.cursor()
+    conn=sqlite3.connect('address_book.db');
+    c=conn.cursor()
 
-#Insert into table
-c.execute("INSERT INTO addresses VALUES (:VIN, :Make, :Year, :Color,
-:Registration, :Model, :Mileage)",
-{
-'VIN':e5_1.get(),
-'Make':e5_2.get(),
-'Year':e5_3.get(),
-'Color':e5_4.get(),
-'Registration':e6_1.get(),
-'Model':e6_2.get(),
-'Mileage':e6_3.get()
-})
-e5_1.delete(0, END);
-e5_2.delete(0, END);
-e5_3.delete(0, END);
-e5_4.delete(0, END);
-e6_1.delete(0, END);
-e6_2.delete(0, END);
-e6_3.delete(0, END);
-conn.commit()
-conn.close()
+    #Insert into table
+    c.execute("INSERT INTO addresses VALUES (:VIN, :Make, :Year, :Color, :Registration, :Model, :Mileage)",
+    {
+        'VIN':e5_1.get(),
+        'Make':e5_2.get(),
+        'Year':e5_3.get(),
+        'Color':e5_4.get(),
+        'Registration':e6_1.get(),
+        'Model':e6_2.get(),
+        'Mileage':e6_3.get()
+    })
+    e5_1.delete(0, END);
+    e5_2.delete(0, END);
+    e5_3.delete(0, END);
+    e5_4.delete(0, END);
+    e6_1.delete(0, END);
+    e6_2.delete(0, END);
+    e6_3.delete(0, END);
+    conn.commit()
+    conn.close()
+    
 #Labels
 g1=Label(root, text="CAR RENTAL RECEIPT", font="Calibri 18 bold")
 l1=Label(root, text="Date: ")
