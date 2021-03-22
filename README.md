@@ -32,6 +32,34 @@ All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
   </a>
 </p>
 
+---
+
+## Instructions to run
+
+- Pre-requisites:
+    - mysql.connector
+    - sqkite3
+    - tkinter
+    - threading
+
+- directions to install 
+
+```bash
+pip install tkinter mysql.conector sqlite3 threading
+```
+
+- directions to execute
+for windows users-
+```bash
+python app.py
+```
+for linux users-
+```bash
+python3 app.py
+```
+
+---
+
 
 <!-- CONTACT --> 
 ## :man: Project Created & Maintained By
