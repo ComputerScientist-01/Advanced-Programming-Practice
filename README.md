@@ -43,7 +43,9 @@ All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
     - threading
 
 - directions to install 
-
+```
+While installing the packages (preferably while using the terminal) you can install multiple packages/libraries in a single line of command (by separating them by spaces) like this:
+```
 ```bash
 pip install tkinter mysql.conector sqlite3 threading
 ```
