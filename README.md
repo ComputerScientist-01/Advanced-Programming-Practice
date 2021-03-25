@@ -9,7 +9,7 @@ All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
 | `3` | Object Oriented |5,9,14|
 | `4` |  Event Driven & GUI |1,2,3,4,5|
 | `5` | GUI with SQL Backend |1,2,4,5|
-| `6` | Parallel, concurrent & socket| |
+| `6` | Parallel, concurrent & socket|9|
 | `7` | Functional | |
 | `8` | Parallel | |
 | `9` | Concurrent| |
