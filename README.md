@@ -10,14 +10,14 @@ All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
 | `4` |  Event Driven & GUI |1,2,3,4,5|
 | `5` | GUI with SQL Backend |1,2,4,5|
 | `6` | Parallel, concurrent & socket|9|
-| `7` | Functional | |
-| `8` | Parallel | |
-| `9` | Concurrent| |
-| `10`| Dependent Type| |
-| `11`| Logic| |
-| `12`| Network| |
-| `13`| Automata Based| |
-| `14`| Symbolic| |
+| `7` | Functional,Symbolic | |
+| `8` | Automata Based | |
+| `9` | | |
+| `10`| | |
+| `11`|  |
+| `12`| | |
+| `13`| | |
+| `14`| | |
 
 
 ## :bulb: Languages used
