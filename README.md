@@ -41,6 +41,8 @@ All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
     - sqkite3
     - tkinter
     - threading
+    - automata
+    - sympy
 
 - directions to install 
 ```
