@@ -12,12 +12,7 @@ All of my labwork done as part of Advanced Programming Practice (18CSC207J) lab.
 | `6` | Parallel, concurrent & socket|9|
 | `7` | Functional,Symbolic | all |
 | `8` | Automata Based | all |
-| `9` | | |
-| `10`| | |
-| `11`|  |
-| `12`| | |
-| `13`| | |
-| `14`| | |
+
 
 
 ## :bulb: Languages used
