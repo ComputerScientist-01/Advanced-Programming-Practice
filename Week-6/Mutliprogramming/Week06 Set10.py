@@ -32,7 +32,7 @@ def Writer():
         print("Writer couldn't write, as Reading or Writing is taking place.")
 
 if __name__ == '__main__':
-    for i in range(0, 10):
+    for _ in range(10):
         randomNumber = random.randint(0, 100) 
         if(randomNumber > 50):
             threading1 = threading.Thread(target = Reader)

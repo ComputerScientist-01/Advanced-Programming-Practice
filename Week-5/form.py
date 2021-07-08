@@ -53,13 +53,11 @@ def display():
         window.geometry("400x250")
 
     select = cursor.execute('''SELECT * from STFORM3 ''')
-    i = 0
-    for STFORM3 in select:
+    for i, STFORM3 in enumerate(select):
         for j in range(len(STFORM3)):
             e = Entry(my_w, width=10, fg='blue')
             e.grid(row=i, column=j)
             e.insert(END, STFORM3[j])
-        i = i+1
 
 
 an = Tk()

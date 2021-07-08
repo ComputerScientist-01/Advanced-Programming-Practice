@@ -1,10 +1,6 @@
 def ispangram(str): 
     alphabet = "abcdefghijklmnopqrstuvwxyz"
-    for char in alphabet: 
-        if char not in str.lower(): 
-            return False
-  
-    return True
+    return all(char in str.lower() for char in alphabet)
 
 str = input("enter a sentence :\n ")
 if ispangram(str):

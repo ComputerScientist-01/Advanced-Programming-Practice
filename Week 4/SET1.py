@@ -29,23 +29,19 @@ maxchar2.place(x=250, y=50)
 dob=tk.Label(window, text="DATE OF BIRTH", bg='#6449C6', fg='white', pady=15)
 dob.place(x=13, y=75)
 
-monthchosen = Combobox(window, width = 7) 
-daychosen = Combobox(window, width = 7) 
+monthchosen = Combobox(window, width = 7)
+daychosen = Combobox(window, width = 7)
 yearchosen = Combobox(window, width = 7) 
 
 
-dayl=[]
-for i in range(0 ,32):
-    dayl.append(str(i))
+dayl = [str(i) for i in range(32)]
 dayl[0]='Day:'
 daychosen['values'] = dayl
 
-yearl=[]
-for i in range(1968 ,2022):
-    yearl.append(str(i))
+yearl = [str(i) for i in range(1968 ,2022)]
 yearl[0]='Year:'
 yearchosen['values'] = yearl
-  
+
 monthchosen['values'] = ('Month:',
                           ' January',  
                           ' February', 
@@ -59,11 +55,11 @@ monthchosen['values'] = ('Month:',
                           ' October', 
                           ' November', 
                           ' December') 
-  
-daychosen.current(0) 
+
+daychosen.current(0)
 daychosen.place(x=150, y=88)
 
-monthchosen.current(0) 
+monthchosen.current(0)
 monthchosen.place(x=220, y=88)
 
 yearchosen.current(0)
@@ -133,10 +129,10 @@ maxchar1.place(x=250, y=402)
 f1=tk.Label(window, text="COUNTRY", bg='#6449C6', fg='white', padx=10, pady=15)
 f1.place(x=5, y=428)
 
-countrychosen = Combobox(window, width = 7) 
+countrychosen = Combobox(window, width = 7)
 c=["India", "Malaysia", "Japan", "U.S.", "Germany"]
 countrychosen['values'] = c
-countrychosen.current(0) 
+countrychosen.current(0)
 countrychosen.place(x=150, y=440)
 
 f1=tk.Label(window, text="HOBBIES", bg='#6449C6', fg='white', padx=10, pady=15)

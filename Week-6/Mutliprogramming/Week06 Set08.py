@@ -16,7 +16,7 @@ obj = Semaphore(0)
 def producer_func(name):
     n = random.randint(10,20)
     if obj._value+n <= MAX:
-        for i in range(n):
+        for _ in range(n):
             obj.release()
             print(name, 'number of items: ', obj._value)
             sleep(0.2)
@@ -28,7 +28,7 @@ def producer_func(name):
 def consumer_func(name):
     n = random.randint(1,20)
     if obj._value+n >= 0:
-        for i in range(n):
+        for _ in range(n):
             obj.acquire()
             print(name, 'number of items: ', obj._value)
             sleep(0.2)

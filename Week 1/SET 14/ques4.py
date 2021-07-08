@@ -1,7 +1,5 @@
 def sumofDigits(n):
-    sum = 0
-    for digit in str(n):   
-        sum += int(digit)        
+    sum = sum(int(digit) for digit in str(n))
     print(sum)
 
 n =input()

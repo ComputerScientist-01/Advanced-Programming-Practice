@@ -45,8 +45,7 @@ def users_registered():
     L17 = Label(window5,text="EMAIL").grid(row=0,column=5,pady=(60,0))
     L17 = Label(window5,text="FULLNAME").grid(row=0,column=6,pady=(60,0))
     cursor.execute("SELECT * FROM user_details")
-    i=1 
-    for users in cursor: 
+    for i, users in enumerate(cursor, start=1): 
         for j in range(len(users)):
             if(j==5):     
                 j+=1
@@ -58,7 +57,6 @@ def users_registered():
                 E11 = Entry(window5, width=25, fg='black') 
                 E11.grid(row=i, column=j)
                 E11.insert(END, users[j])
-        i=i+1
     button_8 = Button(window5,text="QUIT",width=10,command=lambda: quit()).place(relx=0.5,rely=0.84,anchor=CENTER)
 
 

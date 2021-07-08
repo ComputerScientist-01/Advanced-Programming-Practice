@@ -56,20 +56,18 @@ def database():
     
 def display():
     db=sqlite3.connect('hotel.db')
-    
+
     with db:
         cursor=db.cursor()
         my_w = tk.Tk()
         my_w.geometry("600x250") 
 
         r_set=cursor.execute('''SELECT * from HOTEL ''');
-        i=0  
-        for HOTEL in r_set: 
+        for i, HOTEL in enumerate(r_set): 
             for j in range(len(HOTEL)):
                 e = Entry(my_w, width=10, fg='blue') 
                 e.grid(row=i, column=j) 
                 e.insert(END, HOTEL[j])
-            i=i+1
 a = Label(window ,text = "Title ").grid(row = 0,column = 0,sticky = "NSEW")
 b = Label(window ,text = "First Name ").grid(row = 1,column = 0,sticky = "NSEW")
 c = Label(window ,text = "Last Name ").grid(row = 2,column = 0,sticky = "NSEW")
@@ -119,7 +117,7 @@ line1 = Label(window, text="The above rates are quoted per room, per night. The 
 line2 = Label(window, text="Total amount payable      ZAR__ x_ nights = ZAR__ due to Arabella\n Hotel and Spa", bg="white")
 line3 = Label(window, text="Credit Card will be charged on receipt of this form and details will also be used to settle all incidentals not settle on\n departure. A copy of the final folio will be sent to you should there be any unsettled charges.", bg="white")
 line4 = Label(window, text="In order to qualify for the above rates, your booking needs to be made on or before 15th January 2016", bg="white")
-line5 = Label(window, text="Terms and conditions can be found on the next page.", bg="white")   
+line5 = Label(window, text="Terms and conditions can be found on the next page.", bg="white")
 line6 = Label(window, text="The rate is valid for seven days before and after the conference dates. Check in time is 14:00 & check out time is 11:00", bg="white")
 line7 = Label(window, text="By your signature hereto, you are accepting all terms and conditions specified on this form and confirm that all information\n given is current and accurate.", bg="white")
 
@@ -169,23 +167,21 @@ p103 = Entry(window)
 p103.grid(row = 28,column = 1,sticky = "NSEW")
 
 btn = Button(window ,text="SUBMIT",command = database,width=20).grid(row=30,column=2)
-btn = Button(window,text="DISPLAY RECORD(s)",command=display,width=20).grid(row=30,column=3) 
+btn = Button(window,text="DISPLAY RECORD(s)",command=display,width=20).grid(row=30,column=3)
 window.mainloop()
 
 import sqlite3
 my_conn = sqlite3.connect('hotel.db')
 
-import tkinter  as tk 
-from tkinter import * 
+import tkinter  as tk
+from tkinter import *
 my_w = tk.Tk()
 my_w.geometry("1300x250") 
 
 r_set=my_conn.execute('''SELECT * from HOTEL ''');
-i=0 # row value inside the loop 
-for HOTEL in r_set: 
+for i, HOTEL in enumerate(r_set): 
     for j in range(len(HOTEL)):
         e = Entry(my_w, width=10, fg='blue') 
         e.grid(row=i, column=j) 
         e.insert(END, HOTEL[j])
-    i=i+1
 my_w.mainloop()
