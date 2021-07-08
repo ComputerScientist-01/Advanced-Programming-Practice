@@ -15,6 +15,4 @@ while True:
     mssg = c.recv(1024).decode()
     if mssg == 'PING':
         print('PONG')
-    else:
-        pass
     c.close()

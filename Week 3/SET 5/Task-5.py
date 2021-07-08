@@ -6,7 +6,7 @@ def main():
     height = int(input('Please enter your height in inches: '))
 
     # Calculate the BMI (BMI = weight*703/height^2)
-    BMI = (weight * 703.0) / (height*height)
+    BMI = weight * 703.0 / height**2
     print ('Your BMI is %.1f'%BMI)
 
     # Determine whether the user is underweight, overweight, or optimal

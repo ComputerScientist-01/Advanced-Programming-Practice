@@ -2,7 +2,7 @@ limit=0
 print("Which package do you have A, B, or C? : ")
 package =str(input())
 
-if(package == 'A'or package == 'B'or package == 'C'):
+if package in {'A', 'B', 'C'}:
     print("How many hours were used:")
     hours=int(input())
     if(hours > 744 or hours < 0):
@@ -10,30 +10,18 @@ if(package == 'A'or package == 'B'or package == 'C'):
         print("Enter hours again: ")
         hours=int(input())
 
-if(package == "A"):
-
+if package == "A":
     limit = 9.95;
-    
-    if(hours < 10):
-        total = limit;
 
-    else:
-        total = ((hours - 10) * 2) + limit
-
+    total = limit if (hours < 10) else ((hours - 10) * 2) + limit
     print("The amount due is: $%.2f"%total)
 
-if(package == 'B'):
-
+elif package == 'B':
     limit = 14.95;
-    if(hours < 20):
-        total = limit;
-    else:
-        total = ((hours - 20) * 1) + limit;
-
+    total = limit if (hours < 20) else ((hours - 20) * 1) + limit
     print("The amount due is: $%.2f"%total)
 
-if(package == 'C'):
-
+elif package == 'C':
     limit = 19.95;
     total = limit;
     print("The amount due is: $%.2f"%total)

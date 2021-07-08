@@ -4,8 +4,7 @@ class ques2:
         pass
 
     def _getString(self):
-        s = input()
-        return s
+        return input()
         
     def _printString(self,s):
         print(s.upper())
